@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Melodia Musical - Detalhes do Produto</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f3f3f3;
+        }
+
+        .cabecalho {
+            background: #222;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .conteudo {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .produto-flex {
+            display: flex;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .produto-img img {
+            width: 350px;
+            border-radius: 8px;
+        }
+
+        .preco {
+            font-size: 22px;
+            font-weight: bold;
+            color: #009900;
+        }
+
+        .btn-comprar {
+            background: #ffaa00;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .btn-comprar:hover {
+            background: #e69900;
+        }
+
+        .relacionados-flex {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .mini-card {
+            background: white;
+            padding: 10px;
+            width: 130px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #ccc;
+        }
+
+        .mini-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .rodape {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <h1>Melodia Musical</h1>
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="contato.html">Sobre / Contato</a>
+        <a href="produto.html">Produto</a>
+    </nav>
+</header>
+
+<main class="conteudo">
+
+    <section class="produto-flex">
+
+        <div class="produto-img">
+            <img src=img/violao.jpg alt="Violão Clássico">
+        </div>
+
+        <div class="produto-info">
+            <h2>Violão Acústico Clássico</h2>
+            <p>
+                Um violão confortável, com ótimo timbre e ideal para estudantes e músicos que buscam
+                equilíbrio entre qualidade e preço. Madeira leve, cordas macias e acabamento profissional.
+            </p>
+
+            <p class="preco">R$ 349,90</p>
+
+            <label>Variações:</label><br>
+            <select>
+                <option>Cor Natural</option>
+                <option>Preto</option>
+                <option>Acabamento Fosco</option>
+            </select>
+
+            <br><br>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+    </section>
+
+    <section class="relacionados">
+        <h3>Produtos Relacionados</h3>
+
+        <div class="relacionados-flex">
+
+            <div class="mini-card">
+                <img src=img/capo.jpg>
+                <p>Capotrasto Ajustável</p>
+            </div>
+
+            <div class="mini-card">
+                <img src=img/corda.jpg>
+                <p>Jogo de Cordas Nylon</p>
+            </div>
+
+            <div class="mini-card">
+                <img src=img/afinador.jpg>
+                <p>Afinador Digital</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <p>Melodia Musical - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>

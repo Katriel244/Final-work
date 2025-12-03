@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Melodia Musical - Sobre / Contato</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f3f3f3;
+        }
+
+        .cabecalho {
+            background: #222;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .conteudo {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .sobre-bloco p {
+            width: 80%;
+        }
+
+        .contato-flex {
+            display: flex;
+            gap: 30px;
+            margin-top: 25px;
+        }
+
+        .equipe-cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 10px;
+            width: 160px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .rodape {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <h1>Melodia Musical</h1>
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="contato.html">Sobre / Contato</a>
+        <a href="produto.html">Produto</a>
+    </nav>
+</header>
+
+<main class="conteudo">
+
+    <section class="sobre-bloco">
+        <h2>Sobre a Melodia Musical</h2>
+        <p>
+            A Melodia Musical nasceu para aproximar as pessoas do mundo da música.
+            Começamos como uma pequena loja vendendo violões e guitarras, e hoje somos
+            referência na região com instrumentos de qualidade, preço justo e
+            atendimento especializado.
+        </p>
+    </section>
+
+    <section class="contato-flex">
+        <div class="coluna-contato">
+            <h3>Informações de Contato</h3>
+            <p><strong>Telefone:</strong> (11) 98888-7777</p>
+            <p><strong>Email:</strong> contato@melodiamusical.com</p>
+            <p><strong>Horário:</strong> 09h às 19h</p>
+        </div>
+
+        <div class="coluna-mapa">
+            <h3>Localização</h3>
+            <img src=img/mapamelodia.png
+                 width="300" alt="Mapa da loja">
+        </div>
+    </section>
+
+    <section class="equipe">
+        <h2>Nossa Equipe</h2>
+
+        <div class="equipe-cards">
+            <div class="card">
+                <img src=img/rafael.jpg alt="">
+                <h4>Rafael Campos</h4>
+                <p>Fundador e Luthier</p>
+            </div>
+
+            <div class="card">
+                <img src=img/marina.jpg alt="">
+                <h4>Marina Ferreira</h4>
+                <p>Especialista em Teclados</p>
+            </div>
+
+            <div class="card">
+                <img src=img/lucas.jpg alt="">
+                <h4>Lucas Andrade</h4>
+                <p>Atendimento e Vendas</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <p>Melodia Musical - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>

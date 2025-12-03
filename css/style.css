@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.botao-destaque {
+  background-color: #f90;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #eee;
+}
+
+.hero img {
+  max-width: 100%;
+  height: 800px;
+  object-fit: cover;
+  margin-bottom: 20px; 
+}
+
+.botao-acao {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.rodape a {
+  color: #f90;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
